@@ -101,17 +101,32 @@ margin-top: 9px;
 
 .block-first {
     background-color: #2f303a;
-    width: 1600px;
+
     height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .block-second {
     background-color: #fff;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .block-third {
     background-color: #F5F4FA;
     padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.block-forth {
+    background-color: #fff;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.block-fifth {
+    background-color: #fff;
     padding-bottom: 94px;
 }
 
@@ -123,12 +138,10 @@ margin-top: 9px;
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 200px;
     max-width: 696px;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
 }
 
 .title-secondary {
@@ -137,7 +150,7 @@ margin-top: 9px;
     font-weight: 700;
     letter-spacing: 0.03em;
     text-align: center;
-    margin: 118px auto 0 auto;
+    margin: 0 0 50px 0;
 }
 
 .title-third {
@@ -146,7 +159,7 @@ margin-top: 9px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin:0px 0px 0px 0px;
+    margin:0;
 }
 
 .title-fourth {
@@ -172,7 +185,17 @@ margin-top: 9px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
-    margin: 10px 0 30px 0;
+    margin: 0;
+    padding: 0;
+}
+
+.text-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.text-box-second {
+    padding: 20px 24px ;
 }
 
 .title-imagine {
@@ -181,7 +204,7 @@ margin-top: 9px;
     line-height: 2;
     font-weight: 700;
     letter-spacing: 0.06em;
-    margin: 20px 24px 0px 24px;
+    margin: 0 0 4px 0;
 }
 
 .title-imagine-sub {
@@ -189,7 +212,7 @@ margin-top: 9px;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    margin: 0px 24px 20px 24px;
+    margin: 0;
 }
 
 .title-name {
@@ -198,7 +221,8 @@ margin-top: 9px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
-    margin: 30px 0 0 0;
+    margin:0 0 10px 0;
+    padding: 0;
 }
 
 .button {
@@ -301,11 +325,15 @@ margin-top: 9px;
     margin: 0 auto;
 }
 
+.header-conteiner {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
 .head-conteiner {
 display: flex;
 justify-content: space-between;
-margin-top: 24px;
-margin-bottom: 25px;
+padding: 0;
 
 flex-grow: 1;
 }
@@ -342,12 +370,11 @@ flex-grow: 1;
     justify-content: center;
 }
 
-.ul {
+.ul-sub-hero {
     list-style-type: none;
     display: flex;
     gap: 30px;
-    margin-top: 94px;
-    margin-bottom: 0;
+    margin: 0;
     padding: 0;
 }
 
@@ -355,8 +382,7 @@ flex-grow: 1;
     list-style-type: none;
     display: flex;
     gap: 30px;
-    margin-top: 94px;
-    margin-bottom: 94px;
+    margin: 0;
     padding: 0;
 }
 
@@ -381,8 +407,7 @@ flex-grow: 1;
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin-top: 94px;
-    margin-bottom: 0;
+    margin: 0;
     padding: 0;
 }
 
@@ -393,10 +418,9 @@ flex-grow: 1;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
-    margin-top: 50px;
-    margin-bottom: 94px;
     margin-left: 0;
     margin-right: 0;
+    margin: 0;
     padding: 0;
 }
 
