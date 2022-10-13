@@ -113,6 +113,11 @@ margin-top: 9px;
     padding-bottom: 94px;
 }
 
+.block-second-sub {
+    background-color: #fff;
+        padding-bottom: 94px;
+}
+
 .block-third {
     background-color: #F5F4FA;
     padding-top: 94px;
@@ -328,6 +333,7 @@ margin-top: 9px;
 .header-conteiner {
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ececec;
 }
 
 .head-conteiner {
@@ -420,7 +426,8 @@ flex-grow: 1;
     gap: 30px;
     margin-left: 0;
     margin-right: 0;
-    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 0 ;
     padding: 0;
 }
 
